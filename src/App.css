@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-red: #FF3A3A;
+  --primary-yellow: #FFBD3B;
+  --secondary-red: #FF5D3B;
+  --secondary-yellow: #FFA23B;
+  --orange: #FF7F3B;
+}

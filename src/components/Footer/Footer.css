@@ -1,0 +1,14 @@
+.footer-container{
+    height: 40px;
+    background-color: var(--primary-red);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-right: 20px;
+}
