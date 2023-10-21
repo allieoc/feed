@@ -1,0 +1,45 @@
+.recipe-details-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-red);
+}
+
+.recipe-img{
+    width: 40%;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.recipe-info{
+    margin: 0px 50px 50px 50px;
+}
+
+.recipe-details-container h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.recipe-details-container h2{
+    font-family: 'Judson', serif;
+    font-size: 40px;
+}
+
+li{
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.ingredients-title{
+    color: var(--orange);
+}
+
+.directions-title{
+    color: var(--primary-red);
+    margin-top: 30px;
+}
+
+ol, ul{
+    font-family: 'Roboto', sans-serif;
+}

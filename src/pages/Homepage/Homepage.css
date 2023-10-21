@@ -26,18 +26,33 @@
 .featured-img{
     width: 40%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .latest-img{
-    width: 30%;
+    width: 40%;
     border-radius: 10px;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .featured-info, .latest-info{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+
+.featured-info{
+    margin-left: 50px;
+}
+
+.featured-info h2{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.latest-info h2{
+    cursor: pointer;
 }
 
 h1{
