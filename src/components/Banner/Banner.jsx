@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom'
 
 function Banner() {
 
-    const categories = ["All Recipes", "Breakfast", "Lunch", "Dinner", "Snacks", "Desserts"]
+    const categories = ["All", "Breakfast", "Lunch", "Dinner", "Snacks", "Desserts"]
     const colors = ['#FF5D3B', '#FFA23B', '#FF7F3B']
 
     return (
