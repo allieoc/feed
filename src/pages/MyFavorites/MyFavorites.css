@@ -1,0 +1,12 @@
+.favorites-container{
+    height: 100vh;
+}
+
+.no-favorites {
+    color: var(--primary-red);
+    font-style: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px;
+}

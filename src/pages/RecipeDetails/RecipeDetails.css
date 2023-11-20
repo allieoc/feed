@@ -43,3 +43,13 @@ li{
 ol, ul{
     font-family: 'Roboto', sans-serif;
 }
+
+.add-to-favorites{
+    color: var(--primary-red);
+    font-family: 'Judson', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: right;
+    margin-top: 20px;
+}

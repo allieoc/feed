@@ -15,7 +15,7 @@
     text-decoration: none;
 }
 
-.submit-recipe, .create-account{
+.submit-recipe, .create-account, .view-favorites{
     border: none;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
@@ -33,4 +33,22 @@
 
 .create-account{
     background-color: var(--primary-yellow);
+}
+
+.view-favorites{
+    background-color: var(--secondary-yellow);
+    margin-right: 20px;
+}
+
+.user-info{
+    display: flex;
+}
+
+.user-info h2{
+    color: white;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Judson', serif;
+    font-weight: 400;
 }

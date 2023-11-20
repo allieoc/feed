@@ -1,0 +1,64 @@
+h1{
+    color: var(--orange);
+    font-size: 40px;
+}
+
+.auth-container{
+    min-height:60vh;
+}
+
+.auth-form{
+    background-color: white;
+    width:40%;
+    min-height:30vh;
+    margin:30vh auto;
+    padding:20px;
+    border-radius:16px;
+    border: 5px solid var(--primary-red);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 2px -1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 4px 5px 0px rgba(0,0,0,0.2);
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-group input{
+    padding:8px 16px;
+    border: none;
+    border-bottom: 1px solid var(--primary-red);
+    margin-top:20px;
+}
+
+::placeholder{
+    color: var(--primary-red);
+    font-family: 'Roboto', sans-serif;
+}
+
+.auth-form button{
+    background-color: var(--orange);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    padding:8px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    margin:20px 0;
+}
+
+.form-link{
+    cursor:pointer;
+    font-style:italic;
+}
+
+form p{
+    color: var(--primary-red);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
