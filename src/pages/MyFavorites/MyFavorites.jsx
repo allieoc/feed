@@ -11,7 +11,7 @@ function MyFavorites() {
 
   return (
     <div className="favorites-container">
-      <h1>my favorite recipes</h1>
+      <h1 className="favorites-heading">my favorite recipes</h1>
       <div className="all-recipes-container">
         {
           favorites?.length > 0 ? 
