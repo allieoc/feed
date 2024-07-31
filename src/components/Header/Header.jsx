@@ -19,7 +19,6 @@ function Header() {
              user ?
              <div className="user-info">
               <h2>Hi, {user?.displayName}!</h2>
-              <button style={{cursor: "pointer"}} className="submit-recipe">submit a recipe</button>
               <button style={{cursor:"pointer"}} onClick={() => navigate('/favorites')} className="view-favorites">view favorites</button>
               <button style={{cursor: "pointer"}} onClick={()=>signOut(auth)} className="create-account">sign out</button>
               </div>
